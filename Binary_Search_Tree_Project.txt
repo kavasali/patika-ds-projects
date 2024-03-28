@@ -1,0 +1,21 @@
+-- [7,5,1,8,3,6,0,9,4,2] dizisinin Binary-Search-Tree aşamalarını yazınız. --
+1- Root birinci eleman 7 olarak secilir.
+2- 5 < 7 oldugu icin sola yazilir.
+3- 1 < 7 oldugu icin 7'nin sol kismina yazilir. 1 < 5 oldugu icin 5'in sol kismina yazilir.
+4- 8 > 7 oldugu icin 7'nin sag kismina yazilir.
+5- 3 < 7 oldugu icin 7'nin sol kismina yazilir. 3 < 5 oldugu icin 5'in sol kismina yazilir. 3 > 1 oldugu icin 1'in sag kismina yazilir.
+6- 6 < 7 oldugu icin 7'nin sol kismina yazilir. 7 > 5 oldugu icin 5'in sag kismina yazilir.
+7- 0 < 7 oldugu icin 7'nin sol kismina yazilir. 0 < 5 oldugu icin 5'in sol kismina yazilir. 0 < 1 oldugu icin 1'in sol kismina yazilir.
+8- 9 > 7 oldugu icin 7'nin sag kismina yazilir. 9 > 8 oldugu icin 8'in sag kismina yazilir.
+9- 4 < 7 oldugu icin 7'nin sol kismina yazilir. 4 < 5 oldugu icin 5'in sol kismina yazilir. 4 > 1 oldugu icin 1'in sag kismina yazilir. 4 > 3 oldugu icin 3'un sag kismina yazilir.
+10- 2 < 7 oldugu icin 7'nin sol kismina yazilir. 2 < 5 oldugu icin 5'in sol kismina yazilir. 2 > 1 oldugu icin 1'in sag kismina yazilir. 2 < 3 oldugu icin 3'un sol kismina yazilir.
+
+               7
+            /     \
+          5         8
+        /   \          \
+      1       6          9
+    /   \
+  0       3
+        /   \
+      2       4
